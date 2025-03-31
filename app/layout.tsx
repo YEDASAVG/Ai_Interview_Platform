@@ -11,6 +11,22 @@ const monaSans = Mona_Sans({
 export const metadata: Metadata = {
   title: "PrepWise",
   description: "An AI-powered platform for mock interviews.",
+  icons: {
+    icon: [
+      {
+        url: "/logo.svg",
+        href: "/logo.svg"
+      }
+    ],
+    shortcut: ["/logo.svg"],
+    apple: [
+      {
+        url: "/logo.svg",
+        sizes: "180x180",
+        type: "image/svg+xml",
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
